@@ -30,10 +30,10 @@ export const AcmeLogo = () => {
 export default function Home() {
   return (
     <div className="App">
-      <Navbar>
+      <Navbar className="bg-gray-900 bg-opacity-40 backdrop-blur-xl p-4">
         <NavbarBrand>
           <AcmeLogo />
-          <p className="font-bold text-inherit">ACME</p>
+          <p className="font-bold text-inherit">BOARDS PREP - ADTEC </p>
         </NavbarBrand>
         <NavbarContent className="hidden sm:flex gap-4" justify="center">
           <NavbarItem>
