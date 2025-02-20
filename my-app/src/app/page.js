@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./styels.css";
+// import styles from "./styles.css";
 import pic from "../../public/mapIndia.jpeg";
 import Image from "next/image";
 
