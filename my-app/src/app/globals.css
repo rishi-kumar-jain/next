@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import './styles.css';
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -57,7 +59,7 @@ a {
   justify-content: center;
 }
 
-.headingTop h1{
+.headingTop > h1{
 
   
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -71,7 +73,7 @@ a {
 }
 
 
-.headingTop h2{
+.headingTop > h2{
   color: black;
   text-align: center;
   width: 100%;
@@ -85,11 +87,19 @@ a {
 
 
 
+Navbar{
+  color: black;
+  font-weight: bold;
+}
+
+
+
+
 .questionBox{
   font-family: 'Courier New', Courier, monospace;
   color: #0a0a0a;
   font-weight: bold ;
-  font-size: 1rem;
+  /* font-size: 1rem; */
   display: flex;
   flex-direction: column;
   align-items: left;
@@ -101,4 +111,16 @@ a {
 
 .questionBox li{
   padding: 3px;
+}
+
+
+footer{
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+
+li{
+  border: 2px solid rgb(24, 208, 190);
+  border-radius: 5px;
+  margin: 1rem;
 }

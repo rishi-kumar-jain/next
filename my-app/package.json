@@ -13,11 +13,18 @@
     "@heroui/react": "^2.7.2",
     "@heroui/system": "^2.4.10",
     "@heroui/theme": "^2.4.9",
+    "autoprefixer": "^10.4.20",
+    "axios": "^1.7.9",
     "framer-motion": "^12.4.5",
     "next": "15.1.7",
+    "openai": "^4.85.3",
+    "postcss": "^8.5.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "tailwindcss": "^4.0.7"
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1",
+    "tailwindcss": "^4.0.8",
+    "websocket": "^1.0.35"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
